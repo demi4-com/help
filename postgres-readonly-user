@@ -1,3 +1,5 @@
+#how to create readonly user in postgres 13
+
 REVOKE CREATE ON SCHEMA public FROM PUBLIC;
 REVOKE ALL ON DATABASE prod FROM PUBLIC;
 CREATE ROLE readonly;
